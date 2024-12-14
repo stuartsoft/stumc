@@ -1,0 +1,45 @@
+{
+  "Files": [
+    {
+      "Id": "/home/stu/code/stu-mc/mini-blaz/obj/Debug/net8.0/scopedcss/projectbundle/mini-blaz.bundle.scp.css",
+      "PackagePath": "staticwebassets/mini-blaz.bundle.scp.css"
+    },
+    {
+      "Id": "/home/stu/code/stu-mc/mini-blaz/wwwroot/app.css",
+      "PackagePath": "staticwebassets/app.css"
+    },
+    {
+      "Id": "/home/stu/code/stu-mc/mini-blaz/wwwroot/bootstrap/bootstrap.min.css",
+      "PackagePath": "staticwebassets/bootstrap/bootstrap.min.css"
+    },
+    {
+      "Id": "/home/stu/code/stu-mc/mini-blaz/wwwroot/bootstrap/bootstrap.min.css.map",
+      "PackagePath": "staticwebassets/bootstrap/bootstrap.min.css.map"
+    },
+    {
+      "Id": "/home/stu/code/stu-mc/mini-blaz/wwwroot/favicon.png",
+      "PackagePath": "staticwebassets/favicon.png"
+    },
+    {
+      "Id": "/home/stu/code/stu-mc/mini-blaz/wwwroot/hello-stu.jar",
+      "PackagePath": "staticwebassets/hello-stu.jar"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.build.mini-blaz.props",
+      "PackagePath": "build\\mini-blaz.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.mini-blaz.props",
+      "PackagePath": "buildMultiTargeting\\mini-blaz.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.mini-blaz.props",
+      "PackagePath": "buildTransitive\\mini-blaz.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.mini-blaz.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
