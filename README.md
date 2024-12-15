@@ -22,5 +22,10 @@ docker volume create mc-server00
 
 ## run container
 ```
-docker run -d -p 25565:25565 -v mc-server00:/mcdata stu-mc
+docker run -i -t -d -p 25565:25565 -v mc-server00:/mcdata stu-mc
+```
+
+## attach terminal
+```
+docker attach xyz..
 ```
