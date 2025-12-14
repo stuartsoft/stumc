@@ -10,7 +10,7 @@ docker build . -t stu-mc
 
 ## run container
 ```
-docker run -it -d -p 25565:25565 -v mc-server0:/mcdata -v ./hello-stu/out/artifacts/hello_stu_jar/hello-stu.jar:/runthis.jar:ro stu-mc
+docker run -it -d -p 25565:25565 -v mc-server0:/mcdata --mount type=bind,source=./hello-stu/out/artifacts/hello_stu_jar/hello-stu.jar,destination=/runthis.jar,ro stu-mc
 ```
 
 ## just view logs
@@ -25,4 +25,7 @@ docker attach CONTAINER-IDENTIFIER
 
 ## Note on extra arguments:
 You can add additional arguments for your jar like so:
-docker run -it -d -p 25565:25565 -v mc-server0:/mcdata -v ./hello-stu/out/artifacts/hello_stu_jar/hello-stu.jar:/runthis.jar:ro stu-mc argumentA argumentB
+
+```
+docker run ... stu-mc argumentA argumentB
+```
